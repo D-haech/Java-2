@@ -35,7 +35,7 @@
 
             {
                 Id: 4,
-                name: 'Olusegun Aremu Obasanjo',
+                name: 'Gen Olusegun Aremu Obasanjo',
                 year: 1976,
 
             },
@@ -49,7 +49,7 @@
 
             {
                 Id: 6,
-                name: 'Muhammadu Buhari',
+                name: 'Gen Muhammadu Buhari',
                 year: 1978,
 
             },
@@ -114,7 +114,15 @@
         let userDate = Number(userInput);
         //console.log(userDate);
 
-       
+        switch (userInput == Number(leader.year)) {
+            case true:
+                document.getElementById('result').innerHTML = "its correct";
+                break;
+            case false:
+                document.getElementById('result').innerHTML = 'Its wrong';
+        }
+
+
 
 
 
