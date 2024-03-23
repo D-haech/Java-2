@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switch</title>
+</head>
+
+<body>
+    <div id="result"></div>
+
+    <script>
+
+
+        let Presidents = [
+            {
+                Id: 1,
+                name: 'Aguyi Ironsi',
+                year: 1964,
+            },
+
+            {
+                Id: 2,
+                name: 'Yakubu Gowon',
+                year: 1967,
+            },
+
+            {
+                Id: 3,
+                name: ' Murtala Mohammed',
+                year: 1970,
+
+            },
+
+            {
+                Id: 4,
+                name: 'Olusegun Aremu Obasanjo',
+                year: 1976,
+
+            },
+
+            {
+                Id: 5,
+                name: 'Shehu Shagari',
+                year: 1976,
+
+            },
+
+            {
+                Id: 6,
+                name: 'Muhammadu Buhari',
+                year: 1978,
+
+            },
+
+            {
+                Id: 7,
+                name: 'Ibrahimm Badamosi Babangida',
+                year: 1990,
+
+            },
+
+            {
+                Id: 8,
+                name: 'Gen Sanni Abacha',
+                year: 1997,
+
+            },
+
+            {
+                Id: 9,
+                name: 'Abdusalam Abubakar',
+                year: 1999,
+
+            },
+
+            {
+                Id: 10,
+                name: 'Aremu Olusegun Obasanjo',
+                year: 2000,
+
+            },
+
+            {
+                Id: 11,
+                name: 'Musa Yaradua',
+                year: 2004,
+
+            },
+
+            {
+                Id: 12,
+                name: 'Goodluck Ebele Jonathan',
+                year: 2007,
+            },
+
+            {
+                Id: 13,
+                name: 'Muhammadu Buhari',
+                year: 2014,
+
+            }
+
+
+
+        ]
+
+
+
+        var leader = Presidents[Math.floor(Math.random() * 14)];
+
+        let userInput = prompt('what year did ' + leader.name + ' ' + 'rule Nigeria');
+        let userDate = Number(userInput);
+        //console.log(userDate);
+
+       
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>
