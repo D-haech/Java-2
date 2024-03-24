@@ -16,94 +16,100 @@
         let Presidents = [
             {
                 Id: 1,
-                name: 'Aguyi Ironsi',
-                year: 1964,
+                name: 'Abubakar Tafawa Balewa',
+                year: 1960,
             },
 
             {
                 Id: 2,
-                name: 'Yakubu Gowon',
-                year: 1967,
+                name: 'Aguyi Ironsi',
+                year: 1966,
             },
 
             {
                 Id: 3,
-                name: ' Murtala Mohammed',
-                year: 1970,
-
+                name: 'Yakubu Gowon',
+                year: 1966,
             },
 
             {
                 Id: 4,
+                name: ' Murtala Mohammed',
+                year: 1975,
+
+            },
+
+            {
+                Id: 5,
                 name: 'Gen Olusegun Aremu Obasanjo',
                 year: 1976,
 
             },
 
             {
-                Id: 5,
-                name: 'Shehu Shagari',
-                year: 1976,
-
-            },
-
-            {
                 Id: 6,
-                name: 'Gen Muhammadu Buhari',
-                year: 1978,
+                name: 'Shehu Shagari',
+                year: 1979,
 
             },
 
             {
                 Id: 7,
+                name: 'Gen Muhammadu Buhari',
+                year: 1983,
+
+            },
+
+            {
+                Id: 8,
                 name: 'Ibrahimm Badamosi Babangida',
-                year: 1990,
+                year: 1985,
 
             },
             {
-                Id: 8,
+                Id: 9,
                 name: "Ernest Shonekan",
                 year: 1993,
             },
 
             {
-                Id: 9,
+                Id: 10,
                 name: 'Gen Sanni Abacha',
-                year: 1997,
+                year: 1993,
 
             },
 
             {
-                Id: 10,
+                Id: 11,
                 name: 'Abdusalam Abubakar',
+                year: 1998,
+
+            },
+
+            {
+                Id: 12,
+                name: 'Aremu Olusegun Obasanjo',
                 year: 1999,
 
             },
 
             {
-                Id: 11,
-                name: 'Aremu Olusegun Obasanjo',
-                year: 2000,
-
-            },
-
-            {
-                Id: 11,
-                name: 'Musa Yaradua',
-                year: 2004,
-
-            },
-
-            {
                 Id: 13,
-                name: 'Goodluck Ebele Jonathan',
+                name: 'Musa Yaradua',
                 year: 2007,
+
             },
 
             {
                 Id: 14,
+                name: 'Goodluck Ebele Jonathan',
+                year: 2011,
+            },
+
+            {
+                Id: 15,
                 name: 'Muhammadu Buhari',
-                year: 2014,
+                year: 2015,
 
             }
 
@@ -113,7 +119,7 @@
 
 
 
-        var leader = Presidents[Math.floor(Math.random() * 15)];
+        var leader = Presidents[Math.floor(Math.random() * 16)];
 
         let userInput = prompt('what year did ' + leader.name + ' ' + 'rule Nigeria');
         let userDate = Number(userInput);
